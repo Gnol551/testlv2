@@ -23,7 +23,6 @@ console.log(findMax([2, 3, -5, -2, 4]));
 //bai 2
 const numbers = [60, 40, 55, 75, 64];
 
-// step 1 find out even or odd number
 let teamA = [];
 let teamB = [];
 for (let i = 0; i < numbers.length; i++) {
@@ -36,7 +35,6 @@ for (let i = 0; i < numbers.length; i++) {
 console.log("teamA", teamA);
 console.log("teamB", teamB);
 
-// step 2 calculate total of A and B
 let totalA = 0;
 let totalB = 0;
 for (let i = 0; i < teamA.length; i++) {
@@ -48,7 +46,6 @@ for (let i = 0; i < teamB.length; i++) {
 console.log("totalA", totalA);
 console.log("totalB", totalB);
 
-// step 3 result is array content total A and total B
 const result = [totalA, totalB];
 console.log("result", result);
 
